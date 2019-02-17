@@ -35,7 +35,7 @@ Before I explain the syntax, run the following from your command line:
 gulp compressHTML
 ```
 
-If there are no problems, then a new folder called `compressed-html` would have been added to the `compress-html` folder, and `index.html` from the folder `uncompressed-html` would have been copied into `compressed-html`, but minified/compressed. Open`index.html` in a text editor and verify that it, indeed, has been minified/compressed.
+If there are no problems, then a new folder called `compressed-html` will have been added to the `compress-html` folder, and `index.html` from the folder `uncompressed-html` will have been copied into `compressed-html`, but minified/compressed. Open`index.html` in a text editor and verify that it, indeed, has been minified/compressed.
 
 Now, back to the code.
 
