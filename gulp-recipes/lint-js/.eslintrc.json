@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 0,
+    "no-debugger": 0,
+    "indent": [2, 4, {"SwitchCase": 1}],
+    "quotes": [2, "backtick"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "max-len": [2, 85, 4]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": "eslint:recommended"
+}

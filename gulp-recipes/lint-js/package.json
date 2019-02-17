@@ -1,0 +1,17 @@
+{
+  "name": "lint-js",
+  "version": "1.0.0",
+  "description": "Lint JS using ESLint config settings found in the home folder or the .",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roy Vanegas",
+  "license": "ISC"
+}

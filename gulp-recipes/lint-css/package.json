@@ -1,0 +1,17 @@
+{
+  "name": "lint-css",
+  "version": "1.0.0",
+  "description": "Validate CSS files against options Stylelint options set in a JSON, YAML, or JS file that is either in your home folder or at the project-level.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-stylelint": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roy Vanegas",
+  "license": "ISC"
+}

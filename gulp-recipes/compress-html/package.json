@@ -1,0 +1,17 @@
+{
+  "name": "compress-html",
+  "version": "1.0.0",
+  "description": "Compress/minify HTML files, copying the new, compressed files into the “compressed-html” folder.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-htmlmin": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roy Vanegas",
+  "license": "ISC"
+}
