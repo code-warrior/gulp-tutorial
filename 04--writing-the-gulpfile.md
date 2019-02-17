@@ -71,6 +71,13 @@ We establish a function, which we’ll also refer to as a task, called `compress
 2. Pipe, or send,  the outputof all the HTML files  to our `htmlCompressor` function, which, in turn, receives an object of options (a common Gulp feature) that collapses whitespace.
 3. Pipe the compressed HTML files, which are copies of the original files in the `uncompressed-html` folder, to the final destination: the  `compressed-html` folder. If the folder doesn’t exist, the `dest` function will create it; the compressed files retain the names of the original files copied from the `compressed-html` folder.
 
+## Last Line
+```javascript
+exports.compressHTML = compressHTML;
+```
+
+And, finally, the last line in this `gulpfile` needs to expose the task to Gulp. The `compressHTML` component in `exports.compressHTML` is what is exposed to Gulp on the command line, and the `compressHTML` task in the `gulpfile` to the right of the assignment operator (`=`) is our local private task that is made public in the assignment. It’s common to assign the name of the local task to `exports` for public exposure to Gulp.
+
 You’ve authored your first task.
 
 §
