@@ -76,8 +76,8 @@ We establish a function, which we’ll also refer to as a task, called `compress
 exports.compressHTML = compressHTML;
 ```
 
-And, finally, the last line in this `gulpfile` needs to expose the task to Gulp. The `compressHTML` component in `exports.compressHTML` is what is exposed to Gulp on the command line, and the `compressHTML` task in the `gulpfile` to the right of the assignment operator (`=`) is our local private task that is made public in the assignment. It’s common to assign the name of the local task to `exports` for public exposure to Gulp.
+And, finally, the last line in this `gulpfile` needs to expose the task to Gulp. The `compressHTML` component in `exports.compressHTML` is what is exposed to Gulp on the command line, and the `compressHTML` task in the `gulpfile` to the right of the assignment operator (`=`) is our local, private task that is made public in the assignment. It’s common to assign the name of the local task to `exports` for public exposure to Gulp.
 
-You’ve authored your first task.
+You’ve authored your first Gulp task.
 
 §
