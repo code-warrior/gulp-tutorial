@@ -1,0 +1,18 @@
+{
+  "name": "compress-images",
+  "version": "1.0.0",
+  "description": "Compress GIF, JPG, PNG, and SVG files, copying the compressed versions to a new folder called “compressed-images”.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cache": "^1.1.1",
+    "gulp-imagemin": "^5.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roy Vanegas",
+  "license": "ISC"
+}
