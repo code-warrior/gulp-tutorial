@@ -1,0 +1,17 @@
+{
+  "name": "serve",
+  "version": "1.0.0",
+  "description": "Reload your default browser, triggered by changes made to HTML files in the “html” folder.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roy Vanegas",
+  "license": "ISC"
+}
