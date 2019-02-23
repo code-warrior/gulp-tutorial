@@ -1,6 +1,6 @@
 # Installation
 
-## 1 — Node and NPM
+## Node and NPM
 Download Node from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
 ### Check the Node, NPM, and NPX Installation Versions
@@ -17,7 +17,7 @@ npm -v
 npx -v
 ```
 
-## 2 — Gulp
+## Gulp
 Install (`i`) the Gulp command line interface (`gulp-cli`) globally (`-g`) via NPM (`npm`).
 
 ```bash
