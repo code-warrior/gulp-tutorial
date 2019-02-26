@@ -7,13 +7,13 @@ The NPMJS page for a Gulp plugin will usually have an **Install** section, one o
 
 **Note**: Because Gulp 4 was released in January 2018, it’s still considered relatively new. As such, many examples on the NPMJS web site and on the web were written in Gulp 3.9.x. All examples in this tutorial and repo are written in Gulp 4.0.0.
 
-In the `compress-html` folder we’ve been working in during this tutorial, create a folder called `uncompressed-html`, then add an HTML document called `index.html` to it.
+Using the `compress-html` folder we’ve been working with during this tutorial, create a folder called `uncompressed-html`, then add to it an HTML document called `index.html`.
 
 Now, create an empty file called `gulpfile.js` in `compress-html`. Recall from step 2 of this tutorial that `gulpfile.js` is the `entry point` in `package.json`. Before continuing, ensure the folder `compress-html` has the following folders/files:
 * `package.json`
 * `uncompressed-html/index.html`
 * `gulpfile.js`
-* `node_modules` (there are too many folders/files to list under `node_modules`, so just ensure it exists.)
+* `node_modules` (there are too many folders/files to list under `node_modules`, so just ensure it exists)
 
 Copy and paste the following into `gulpfile.js`.
 
@@ -35,7 +35,7 @@ Before I explain the syntax, run the following from your command line:
 gulp compressHTML
 ```
 
-If there are no problems, then a new folder called `compressed-html` will have been added to the `compress-html` folder, and `index.html` from the folder `uncompressed-html` will have been copied into `compressed-html`, but minified/compressed. Open`index.html` in a text editor and verify that it, indeed, has been minified/compressed.
+If there were no problems, then a new folder called `compressed-html` would have been added to the `compress-html` folder, and `index.html` from the folder `uncompressed-html` would have been copied into `compressed-html`, but minified/compressed. Open`index.html` in a text editor and verify that it, indeed, has been minified/compressed.
 
 Now, back to the code.
 
