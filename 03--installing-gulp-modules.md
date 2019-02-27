@@ -15,6 +15,6 @@ Let’s also install a local version of Gulp:
 npm i -D gulp
 ```
 
-Note the new member object in `devDependencies`.
+Note the new `gulp` member object in `devDependencies`.
 
 §
