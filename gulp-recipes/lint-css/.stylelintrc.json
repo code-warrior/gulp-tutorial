@@ -130,8 +130,8 @@
     "at-rule-name-space-after": "always",
     "at-rule-semicolon-space-before": "never",
     "at-rule-semicolon-newline-after": "always",
-    "indentation": 30,
     "max-empty-lines": 100,
+    "indentation": 3,
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true
   }
