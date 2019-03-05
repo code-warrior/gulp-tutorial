@@ -6,6 +6,8 @@ With `package.json` in place, we can now choose the Gulp module(s) we need in or
 npm i -D gulp-htmlmin
 ```
 
+(If you received an access error, type `sudo npm i -D gulp-htmlmin`.)
+
 This will search for `gulp-htmlmin` in the [NPM registry](https://registry.npmjs.org/), then, if found, download the `gulp-htmlmin` module into a folder called `node_modules`. If `node_modules` doesn’t exist, this module will create it. (Every first module fetched from the registry will create `node_modules` if `node_modules` isn’t found.)
 
 If you open `package.json`, you’ll note that a new object called `devDependencies` was added with a member whose name is `"gulp-htmlmin"` and whose value is `"^5.0.1"` (`"gulp-htmlmin": "^5.0.1"`). This means that the versions of `gulp-htmlmin` that will be used range from `5.0.1` → `6.0.0`, inclusive and exclusive, respectively. (Read more at [https://docs.npmjs.com/misc/semver#caret-ranges-123-025-004](https://docs.npmjs.com/misc/semver#caret-ranges-123-025-004).)
@@ -15,6 +17,8 @@ Let’s also install a local version of Gulp:
 npm i -D gulp
 ```
 
-Note the new member object in `devDependencies`.
+(Again, if you received an access error, type `sudo npm i -D gulp`.)
+
+Note the new `gulp` member object in `devDependencies`.
 
 §
