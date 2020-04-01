@@ -5,7 +5,7 @@ let compressHTML = () => {
     return src(`uncompressed-html/*.html`)
         .pipe(htmlCompressor({collapseWhitespace: true}))
         .pipe(dest(`compressed-html/`));
-}
+};
 
 // The string after “exports.” is what is exposed to Gulp.
 // For example, “compressHTML” is what is exposed when
