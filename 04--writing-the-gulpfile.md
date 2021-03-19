@@ -25,7 +25,7 @@ let compressHTML = () => {
     return src(`uncompressed-html/*.html`)
         .pipe(htmlCompressor({collapseWhitespace: true}))
         .pipe(dest(`compressed-html/`));
-}
+};
 
 exports.compressHTML = compressHTML;
 ```
