@@ -69,7 +69,7 @@ Now, back to the code on lines 4–8.
 We establish a function, which we’ll also refer to as a task, called `compressHTML`, which will do the following:
 1. Source  all HTML files in the `uncompressed-html` folder.
 2. Pipe, or send,  the outputof all the HTML files  to our `htmlCompressor` function, which, in turn, receives an object of options (a common Gulp feature) that collapses whitespace.
-3. Pipe the compressed HTML files, which are copies of the original files in the `uncompressed-html` folder, to the final destination: the  `compressed-html` folder. If the folder doesn’t exist, the `dest` function will create it; the compressed files retain the names of the original files copied from the `compressed-html` folder.
+3. Pipe the compressed HTML files, which are copies of the original files in the `uncompressed-html` folder, to the final destination: the  `compressed-html` folder. If the folder doesn’t exist, the `dest` function will create it; the compressed files retain the names of the original files copied from the `uncompressed-html` folder.
 
 ## Last Line
 ```javascript
